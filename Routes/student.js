@@ -1,7 +1,7 @@
 import Express from "express";
 import {db} from "../CloudDb/mongoCloudDb.js"
 import bcrypt from "bcrypt";
-import { transport,mailOptions } from "../MailUtlis/mail-utils.js";
+import { transport,mailOptions } from "../MailUtils/mail-utils.js";
 
 const studentRouter=Express.Router();
 
