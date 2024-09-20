@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const dbName=process.env.DB_NAME;
-const userName=process.env.DB_USER;
+const userName=process.env.DB_USERNAME;
 const password=process.env.DB_PASSWORD;
 const cluster=process.env.DB_CLUSTER;
 
